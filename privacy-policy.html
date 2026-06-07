@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Tapas Study Tracker</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #fafaf8;
+      --surface: #ffffff;
+      --accent: #e8621a;
+      --accent-light: #fff4ee;
+      --text: #1a1a1a;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --radius: 12px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 2rem 2.5rem;
+      background: var(--surface);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      margin-bottom: 2rem;
+    }
+
+    .logo {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    header p {
+      color: var(--muted);
+      margin-top: 0.4rem;
+      font-size: 0.95rem;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 1rem;
+      background: var(--accent-light);
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.3rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid #f5c4a4;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .card h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .card h2 .icon {
+      font-size: 1.2rem;
+    }
+
+    .card p {
+      color: #374151;
+      margin-bottom: 0.75rem;
+      font-size: 0.95rem;
+    }
+
+    .card p:last-child { margin-bottom: 0; }
+
+    .card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0.5rem 0;
+    }
+
+    .card ul li {
+      padding: 0.35rem 0;
+      padding-left: 1.4rem;
+      position: relative;
+      color: #374151;
+      font-size: 0.95rem;
+    }
+
+    .card ul li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .highlight-box {
+      background: var(--accent-light);
+      border: 1px solid #f5c4a4;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #7c3400;
+    }
+
+    .highlight-box strong { font-weight: 700; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+    }
+
+    th {
+      background: #f9fafb;
+      text-align: left;
+      padding: 0.65rem 0.9rem;
+      font-weight: 600;
+      color: var(--muted);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      padding: 0.65rem 0.9rem;
+      border-bottom: 1px solid #f3f4f6;
+      vertical-align: top;
+      color: #374151;
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      padding: 2rem 0 1rem;
+    }
+
+    footer a { color: var(--muted); }
+
+    @media (max-width: 600px) {
+      .card { padding: 1.4rem; }
+      header { padding: 2rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="logo">🍅</div>
+      <h1>Privacy Policy</h1>
+      <p>Tapas Study Tracker</p>
+      <div class="badge">Last updated: June 7, 2026</div>
+    </header>
+
+    <!-- Overview -->
+    <div class="card">
+      <h2><span class="icon">👋</span> Overview</h2>
+      <p>
+        Tapas Study Tracker ("we", "our", or "the app") is a mobile application for iOS and Android
+        that helps you track study sessions and build consistent learning habits.
+      </p>
+      <p>
+        This policy explains what data we collect, why we collect it, and how we handle it.
+        We believe in keeping things simple and transparent.
+      </p>
+    </div>
+
+    <!-- Data we collect -->
+    <div class="card">
+      <h2><span class="icon">📋</span> Information We Collect</h2>
+
+      <p><strong>Account information</strong></p>
+      <ul>
+        <li>Email address (used for login and account recovery)</li>
+        <li>Display name (optional, set by you)</li>
+      </ul>
+
+      <p style="margin-top:1rem;"><strong>Study & usage data</strong></p>
+      <ul>
+        <li>Study sessions you log (subject, duration, date)</li>
+        <li>Goals and streaks you set within the app</li>
+        <li>In-app actions and feature usage (to improve the product)</li>
+        <li>App crash reports and performance data</li>
+      </ul>
+
+      <div class="highlight-box">
+        <strong>Note:</strong> We do not collect your name, phone number, payment information,
+        location, contacts, or any sensitive personal data.
+      </div>
+    </div>
+
+    <!-- How we use it -->
+    <div class="card">
+      <h2><span class="icon">🎯</span> How We Use Your Data</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Purpose</th>
+            <th>Data used</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Provide &amp; sync your account</td>
+            <td>Email, study data</td>
+          </tr>
+          <tr>
+            <td>Send account-related emails (password reset, etc.)</td>
+            <td>Email address</td>
+          </tr>
+          <tr>
+            <td>Display your progress and streaks</td>
+            <td>Study sessions, goals</td>
+          </tr>
+          <tr>
+            <td>Improve app performance and fix bugs</td>
+            <td>Crash reports, usage events</td>
+          </tr>
+          <tr>
+            <td>Analyze feature usage to improve the product</td>
+            <td>Anonymized usage analytics</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-top:1rem;">We do <strong>not</strong> sell your data, use it for advertising,
+      or share it with third parties for their own marketing purposes.</p>
+    </div>
+
+    <!-- Third-party services -->
+    <div class="card">
+      <h2><span class="icon">🔗</span> Third-Party Services</h2>
+      <p>We use the following Google services to operate the app:</p>
+      <ul>
+        <li>
+          <strong>Firebase Authentication</strong> — manages secure sign-in and account sessions.
+          <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy ↗</a>
+        </li>
+        <li>
+          <strong>Firebase Firestore</strong> — stores your study data in the cloud so it syncs across devices.
+        </li>
+        <li>
+          <strong>Firebase Crashlytics</strong> — collects anonymized crash reports to help us fix bugs faster.
+        </li>
+        <li>
+          <strong>Google Analytics for Firebase</strong> — tracks anonymized in-app events (screens viewed, features used) to help us understand how people use the app.
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy ↗</a>
+        </li>
+      </ul>
+      <p style="margin-top:1rem;">
+        Data processed by these services is subject to Google's privacy policies. You can opt out of
+        analytics data collection in the app settings.
+      </p>
+    </div>
+
+    <!-- Data retention -->
+    <div class="card">
+      <h2><span class="icon">🗂️</span> Data Retention</h2>
+      <p>
+        Your account data and study records are retained as long as your account is active.
+        If you delete your account, all associated data is permanently deleted from our systems
+        within <strong>30 days</strong>.
+      </p>
+      <p>
+        Anonymized analytics data may be retained longer for aggregate reporting purposes and
+        cannot be linked back to you.
+      </p>
+    </div>
+
+    <!-- Your rights -->
+    <div class="card">
+      <h2><span class="icon">🛡️</span> Your Rights</h2>
+      <p>You have the right to:</p>
+      <ul>
+        <li><strong>Access</strong> — request a copy of the data we hold about you</li>
+        <li><strong>Correction</strong> — ask us to correct inaccurate information</li>
+        <li><strong>Deletion</strong> — delete your account and all associated data from within the app settings, or by emailing us</li>
+        <li><strong>Opt out</strong> — disable analytics tracking in app settings</li>
+        <li><strong>Portability</strong> — request an export of your study data</li>
+      </ul>
+      <p style="margin-top: 0.75rem;">
+        To exercise any of these rights, contact us at
+        <a href="mailto:ajeetyadax@gmail.com">ajeetyadax@gmail.com</a>.
+      </p>
+    </div>
+
+    <!-- Children -->
+    <div class="card">
+      <h2><span class="icon">👶</span> Children's Privacy</h2>
+      <p>
+        Tapas Study Tracker is not directed at children under 13 (or under 16 in the EU/UK).
+        We do not knowingly collect personal information from children. If you believe a child
+        has provided us with personal data, please contact us and we will delete it promptly.
+      </p>
+    </div>
+
+    <!-- Security -->
+    <div class="card">
+      <h2><span class="icon">🔒</span> Security</h2>
+      <p>
+        Your data is stored on Google Firebase infrastructure, which uses industry-standard
+        encryption in transit (TLS) and at rest. We follow security best practices and restrict
+        access to your data to authorized systems only.
+      </p>
+      <p>
+        No method of transmission over the internet is 100% secure. If you discover a security
+        issue, please report it to
+        <a href="mailto:ajeetyadax@gmail.com">ajeetyadax@gmail.com</a>.
+      </p>
+    </div>
+
+    <!-- Changes -->
+    <div class="card">
+      <h2><span class="icon">📝</span> Changes to This Policy</h2>
+      <p>
+        We may update this policy from time to time. When we do, we'll update the "Last updated"
+        date at the top of this page. For significant changes, we'll notify you via the app or
+        by email. Continued use of the app after changes constitutes acceptance of the updated policy.
+      </p>
+    </div>
+
+    <!-- Contact -->
+    <div class="card">
+      <h2><span class="icon">✉️</span> Contact Us</h2>
+      <p>
+        If you have any questions or concerns about this privacy policy or how we handle your data,
+        please reach out:
+      </p>
+      <ul>
+        <li>Email: <a href="mailto:ajeetyadax@gmail.com">ajeetyadax@gmail.com</a></li>
+        <li>App: Tapas Study Tracker</li>
+      </ul>
+      <p style="margin-top:0.75rem;">We aim to respond to all privacy-related inquiries within 5 business days.</p>
+    </div>
+
+    <footer>
+      <p>© 2026 Tapas Study Tracker · <a href="mailto:ajeetyadax@gmail.com">ajeetyadax@gmail.com</a></p>
+    </footer>
+
+  </div>
+</body>
+</html>
